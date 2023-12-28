@@ -1,0 +1,68 @@
+.form_background{
+    background: url(../../../Assets/form-background.png);
+    width: 100% !important;
+    position: relative;
+}
+.form_details{
+background: url(../../../Assets/form-details-background.png);
+width: 100% !important;
+max-width: 530px !important; 
+margin: 7rem 3rem !important;
+border-radius: 10px !important;
+}
+.form_image{
+    width: 100% !important;
+    max-width: 100px !important;
+}
+.form_layout{
+    display: block !important;
+    width: 100% !important;
+    max-width: 400px !important;
+    margin: 0 auto !important;
+}
+.text_section{
+    position: absolute;
+    top: 20rem;
+    left: 10rem;
+}
+.top_text_layout{
+width: 100%;
+max-width: 240px;
+}
+.top_text{
+    text-transform: capitalize;
+color: white;
+font-weight: 500;
+font-size: 40px;
+}
+.container{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+form{
+    width: 100%;
+    max-width: 530px !important;
+    margin: 30px auto;
+}
+label{
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+input{
+    width: 100%;
+    max-width: 350px;
+    height: 45px;
+    border-radius: 5px;
+}
+.next_btn{
+    float: right;
+    margin: 3rem 0;
+    padding: 5px 20px;
+}
+@media (max-width:768px) {
+    .form_details{
+        margin-right: 0;
+    }
+}
+  

@@ -1,0 +1,22 @@
+.container{
+    background: url(../../../Assets/Background-image.png);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    max-width: 1887px;
+    max-height: 913px;
+}
+.certer_img{
+    width: 100%;
+    max-width: 650px;
+}
+
+@media (max-width: 768px) {
+    .center_img {
+        width: 100%;
+      max-width: 300px;
+      margin-top: 0px;
+      padding-bottom: 30px;
+    }
+}
